@@ -1,0 +1,77 @@
+
+
+Started GET "/" for 12.248.40.138 at Thu May 23 09:55:26 -0700 2013
+
+Mysql2::Error (Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)):
+  
+
+
+
+Started GET "/" for 12.248.40.138 at Thu May 23 09:56:27 -0700 2013
+
+Mysql2::Error (Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)):
+  
+
+
+
+Started GET "/" for 12.248.40.138 at Thu May 23 09:56:27 -0700 2013
+
+Mysql2::Error (Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)):
+  
+
+
+
+Started GET "/" for 106.51.152.36 at Thu May 23 09:57:57 -0700 2013
+
+Mysql2::Error (Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)):
+  
+
+
+
+Started GET "/" for 106.51.152.36 at Thu May 23 09:58:00 -0700 2013
+
+Mysql2::Error (Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)):
+  
+
+
+
+Started GET "/" for 106.51.152.36 at Thu May 23 09:58:02 -0700 2013
+
+Mysql2::Error (Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)):
+  
+
+
+
+Started GET "/" for 12.248.40.138 at Thu May 23 09:58:55 -0700 2013
+
+Mysql2::Error (Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)):
+  
+
+
+
+Started GET "/" for 12.248.40.138 at Thu May 23 10:00:28 -0700 2013
+
+Mysql2::Error (Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)):
+  
+
+
+
+Started GET "/" for 12.248.40.138 at Thu May 23 10:00:30 -0700 2013
+
+Mysql2::Error (Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)):
+  
+
+
+
+Started GET "/" for 12.248.40.138 at Thu May 23 10:00:30 -0700 2013
+
+Mysql2::Error (Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)):
+  
+
+
+
+Started GET "/" for 12.248.40.138 at Thu May 23 10:00:31 -0700 2013
+
+Mysql2::Error (Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)):
+  
+
