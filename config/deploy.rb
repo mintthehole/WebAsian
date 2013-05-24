@@ -53,6 +53,10 @@ end
 
 
 namespace :deploy do
+  after "deploy:update_code" do
+    run "cp #{deploy_to}/shared/database.yml #{release_path}/config/database.yml"
+  end
+
 	task :start do ; end
 	task :stop do ; end
 
