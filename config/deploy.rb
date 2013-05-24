@@ -29,7 +29,7 @@ set :scm_verbose, true
 set :chmod755, "app config db lib public vendor script script/* public/disp*"
 set :use_sudo, false
 set :bundle_cmd, 'source $HOME/.bash_profile && bundle'
-
+set :rake, "#{rake} --trace"
 def aws_staging name
 	task name do
 		yield    
