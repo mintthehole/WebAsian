@@ -34,7 +34,7 @@ production:
   reconnect: false
   database: webausmaxpiaj
   pool: 5
-  username: root
+  username: jemgasian
   password: Ma%9@!6E
   host: mysql.manage.webasiansystems.com
   port: 3306
