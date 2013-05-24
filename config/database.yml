@@ -36,5 +36,5 @@ production:
   pool: 5
   username: root
   password: Ma%9@!6E
-  host: manage.webasiansystems.com
+  host: mysql.manage.webasiansystems.com
   port: 3306

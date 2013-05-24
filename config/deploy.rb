@@ -19,23 +19,16 @@ set :application, "test_app"
 set :repository,  "git@github.com:mintthehole/WebAsian.git"
 set :scm, :git
 
-set :scm_username, 'mintthehole
-
-
-
-
-
-
-
-
-
-
-
-
-'
+set :scm_username, 'mintthehole'
+set :scm_password, 'Victorpol1'
+set :deploy_via, :remote_cache
+set :git_enable_submodules, 1 # if you have vendored rails
+set :git_shallow_clone, 1
+set :scm_verbose, true
 
 set :chmod755, "app config db lib public vendor script script/* public/disp*"
 set :use_sudo, false
+set :bundle_cmd, 'source $HOME/.bash_profile && bundle'
 
 def aws_staging name
 	task name do
