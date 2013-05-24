@@ -36,4 +36,5 @@ production:
   pool: 5
   username: root
   password: Ma%9@!6E
-  socket: /var/run/mysqld/mysqld.sock
+  host: manage.webasiansystems.com
+  port: 3306
