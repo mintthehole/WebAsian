@@ -1,6 +1,7 @@
 TestApp::Application.routes.draw do
  devise_for :users do
    get "/sign_in", :to => "devise/sessions#new"
+   post "sign_in", :to => "devise/sessions#create"
  end
   # The priority is based upon order of creation:
   # first created -> highest priority.

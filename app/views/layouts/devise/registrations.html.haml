@@ -1,0 +1,24 @@
+!!!
+%html
+  %head
+    %title FirstMile
+    %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
+    %meta{:name => "description" , :content => "FirstMile"}    
+    %link{ :rel => "shortcut icon", :href => "/assets/favicon.png", :type => "image/x-icon"}
+    /[if lt IE 9]
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    = stylesheet_link_tag :application
+    = yield :head
+    = yield :stylesheets
+    = csrf_meta_tag
+
+  %body
+    = render "shared/session_header"
+    #main_content.container-fluid
+      - flash.each do |name, msg|
+        = content_tag :div, msg.html_safe, :id => "flash_#{name}", :class => 'alert' if msg.is_a?(String) and !msg.blank?          
+      = yield
+
+  .js
+    = javascript_include_tag :application
+    = yield :scripts
