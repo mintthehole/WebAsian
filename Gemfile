@@ -1,17 +1,18 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.3'
+gem 'rails', '3.2.3'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'mysql2'
-gem 'rake', '0.8.7'
-gem 'activerecord-mysql2-adapter'
+
+gem 'rake','10.1.1'
+
 gem 'activeadmin'
 gem "devise", "1.5.0"
 gem "i18n","~> 0.4" 
 gem 'capistrano'
+gem "json", "1.5.5"
 # Use unicorn as the web server
 # gem 'unicorn'
 
@@ -24,7 +25,14 @@ gem 'capistrano'
 # Bundle the extra gems:
 # gem 'bj'
 # gem 'nokogiri'
-# gem 'sqlite3-ruby', :require => 'sqlite3'
+gem 'sqlite3-ruby', :require => 'sqlite3'
+group :assets do
+	gem 'saas'
+    gem 'sass-rails',   '~> 3.2.5'
+    gem 'coffee-rails', '~> 3.2.2'
+    gem 'uglifier', '>= 1.2.4'
+    gem 'bootstrap-sass', '~> 2.0.3.1'
+end
 # gem 'aws-s3', :require => 'aws/s3'
 
 # Bundle gems for the local environment. Make sure to
